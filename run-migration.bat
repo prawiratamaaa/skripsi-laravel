@@ -3,6 +3,10 @@ SETLOCAL
 
 REM Space-separated list of migration files
 SET migrations=^
+2014_10_12_000000_create_users_table ^
+2014_10_12_100000_create_password_resets_table ^
+2019_08_19_000000_create_failed_jobs_table ^
+2019_12_14_000001_create_personal_access_tokens_table ^
 2024_03_20_151058_employee_table ^
 2024_03_24_154001_role_table ^
 2024_03_28_042836_chart_of_account_table ^
@@ -11,12 +15,12 @@ SET migrations=^
 2024_03_31_130115_permissions_user ^
 2024_03_31_130123_role_user ^
 2024_05_12_035622_customer ^
+2024_06_13_233714_division ^
 2024_05_23_055548_journal_entry ^
 2024_06_10_204335_detail_journal_entry ^
 2024_06_13_225836_account_balance ^
 2024_06_13_225849_master_transaction ^
 2024_06_13_225901_detail_master_transaction ^
-2024_06_13_233714_division ^
 2024_06_13_234542_evidence_code ^
 2024_06_14_000124_bis_pariwisata ^
 2024_06_14_082602_closing_balance ^
